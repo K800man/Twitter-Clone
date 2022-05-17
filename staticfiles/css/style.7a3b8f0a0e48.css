@@ -1,0 +1,140 @@
+/*
+common
+*************************/
+
+body {
+    height: 100%;
+}
+/*content {
+    max-width: 600px;
+    height: 100%;
+    margin: 0 auto;
+    border-left: 1px solid #ccc;
+    border-right: 1px solid #ccc;
+}*/
+section.content {
+    max-width: 600px;
+    height: 100%;
+    margin: 0 auto;
+    border-left: 1px solid #ccc;
+    border-right: 1px solid #ccc;
+}
+/*
+
+post
+************************/
+.post_form{
+    padding: 20px 40px;
+    border-bottom: 1px solid #ccc;
+}
+.post_form .name{
+    width: 70%;
+    margin-bottom: 10px;
+    padding: 10px;
+    border: 1px solid white;
+    background: #e6fef7;
+}
+.post_form textarea{
+    width: 70%;
+    padding: 10px;
+    border: 1px solid white;
+}
+.flex{
+    display: flex;
+}
+
+.post_form .file{
+    border: 1px solid #ccc;
+    padding: 8px;
+    margin-left: 60px;
+}
+
+
+.posts ul {
+    padding: 0;
+    } 
+.posts li{
+    position: relative;
+    display: flex;
+    border-bottom: 1px solid #ccc;
+    padding: 20px 40px;
+    list-style: none;
+}
+.posts li .menu_icon{
+    width: 20px;
+    position:absolute;
+    top: 18px;
+    right: 30px;
+}
+.posts li .menu{
+    display: none;
+    position: absolute;
+    top: 40px;
+    right: 15px;
+    border: 1px solid #ccc;
+    background-color: white;
+    padding: 10px 15px;
+    font-size: 13px;
+    border-radius: 3px;
+}
+.posts li .menu a{
+    text-decoration: none;
+}
+.posts li .logo{
+    flex-basis: 15%;
+}
+.posts li .logo img{
+    width: 60%;
+}
+.posts li .name_body{
+    flex-basis: 85%;
+}
+.posts li .name_body .name{
+    font-weight: bold;
+}
+.Head img {
+    width: 60px;
+    float: left;
+}
+h1 {
+    position: relative;
+    left: 3%;
+    font-size: 25px;
+    padding-top: 15px;
+}
+section.header {
+    border-bottom: 1px solid #ccc;
+}
+
+img.like {
+    width: 25px;
+}
+.logo img {
+    width: 60px;
+    float: left;
+}
+button {
+    background-color: blueviolet;
+    color: white;
+    padding: 4px;
+    width: 60px;
+    border-radius: 10px;
+    border: 1px solid white;
+}
+.cancel {
+    background-color: black;
+    border: 1px solid #ccc;
+    color: white;
+    padding: 4px;
+    width: 60px;
+    border-radius: 10px;
+    text-decoration: none;
+}
+input[type="file"] {
+    border: 1px solid #ccc;
+    padding: 8px;
+    margin-left: 4px;
+}
+img.image2 {
+    margin-left: 100px;
+}
